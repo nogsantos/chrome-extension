@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "version": "1.0.0",
+    "description": "Development easy chrome extension",
+    "name": "EasyDevExtension",
+    "author": "Fabricio Nogueira",
+    "browser_action": {
+        "default_popup": "html/index.html",
+        "default_title": "Preencher dados para testes no sistema Treasy."
+    },
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "storage",
+        "contextMenus",
+        "notifications",
+        "alarms",
+        "http://*/",
+        "https://*/",
+        "<all_urls>"
+    ],
+    "icons": {
+        "16": "img/treasy.png",
+        "32": "img/treasy.png",
+        "48": "img/treasy.png",
+        "128": "img/treasy.png"
+    }
+}
